@@ -12,6 +12,7 @@ export class FirstComponent implements OnInit {
   }
 
   title = "This is First title";
+  imageUrl = "../../assets/universe.jpg";
   mailList;
 
   constructor(service: EmailService) {
