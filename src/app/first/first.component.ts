@@ -14,6 +14,7 @@ export class FirstComponent implements OnInit {
   title = "This is First title";
   imageUrl = "../../assets/universe.jpg";
   mailList;
+  isActive = true;
 
   constructor(service: EmailService) {
     this.mailList = service.getMail();

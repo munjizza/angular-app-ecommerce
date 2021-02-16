@@ -8,4 +8,5 @@
     </li>
 </ul>
 
-<button class="btn btn-primary">Save</button>
+<button class="btn btn-primary" [class.active]="isActive">Save</button>
+<button [style.backgroundColor]="isActive ? 'green' : 'red' ">Delete</button>
