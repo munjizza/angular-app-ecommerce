@@ -1,0 +1,8 @@
+<div>
+    <i class="fa fa-star"></i>
+    <fa-icon [icon]="faStar"></fa-icon>
+</div>
+<div>
+    <input [(ngModel)]="inputText" (keyup)="write()" />
+    <p>{{ inputText | titlecase }}</p>
+</div>
