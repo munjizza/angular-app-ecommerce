@@ -1,5 +1,5 @@
 <div>
-    <i class="fa fa-star"></i>
+    <i class="fa" [class.fa-star]="isFavourite" [class.fa-angellist]="!isFavourite" (click)="changeStatus()"></i>
     <fa-icon [icon]="faStar"></fa-icon>
 </div>
 <div>
